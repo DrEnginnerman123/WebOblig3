@@ -1,0 +1,51 @@
+body{
+    border: 3px solid yellow;
+    padding: 3px;
+}
+
+.whole{
+    padding: 3px;
+    border:3px solid black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+   
+}
+
+.margin{
+    margin: 75% 0; 
+}
+
+.parallax{
+    background: url(food.jpg)
+        repeat fixed 100%;
+}
+.parallax-inner {
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+h1{
+    text-align: center;
+    font-size: 500%;
+    color: aquamarine;
+    letter-spacing: 3px;
+}
+
+
+.image-container{
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image{
+    min-height: 100px;
+    min-width: 500px;
+    border: 3px solid black;
+}
