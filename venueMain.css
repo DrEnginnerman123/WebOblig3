@@ -17,10 +17,6 @@ body{
    
 }
 
-/*.margin{
-    margin: 75% 0; 
-}
-*/
 .parallax{
     background-image: url('pics/photo-1508919801845-fc2ae1bc2a28.jpg');
     height: 100%;
@@ -29,9 +25,13 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.parallax-inner {
-    padding-top: 20%;
-    padding-bottom: 20%;
+.parallax2 {
+    background-image: url('pics/photo-1508919801845-fc2ae1bc2a28.jpg');
+    height: 20%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1{
