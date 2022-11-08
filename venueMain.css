@@ -1,14 +1,9 @@
 
 body{
-    height: 100%;
-    border: 3px solid yellow;
-    padding: 3px;
+    border: 12px solid #28282B;
+    
 }
 
-.whole{
-    padding: 3px;
-    border:3px solid black;
-}
 
 *{
     margin: 0;
@@ -18,16 +13,8 @@ body{
 }
 
 .parallax{
-    background-image: url('pics/photo-1508919801845-fc2ae1bc2a28.jpg');
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.parallax2 {
-    background-image: url('pics/photo-1508919801845-fc2ae1bc2a28.jpg');
-    height: 20%;
+    background-image: url('food.jpg');
+    height: 40%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -37,10 +24,14 @@ body{
 h1{
     text-align: center;
     font-size: 500%;
-    color: aquamarine;
+    color: E75B00;
     letter-spacing: 3px;
 }
 
+.bod{
+    display: flex;
+    flex-direction: column;
+}
 
 .image-container{
     height: 700px;
@@ -53,5 +44,20 @@ h1{
 .image{
     min-height: 100px;
     min-width: 500px;
-    border: 3px solid black;
+    border: 3px solid #E75B00;
 }
+
+.storbeskrivelse{
+    border: 3px solid green; /*fjern dette*/
+    padding: 70px 0;
+    text-align: center;
+    font-family: Georgia, serif;
+    
+    
+}
+.litenbeskrivelse{
+    border: 3px solid green; /*fjern dette*/
+    padding: 70px 0;
+    text-align: center;
+}
+
