@@ -1,32 +1,37 @@
-
-body{
-    border: 12px solid #28282B;
-    
+/*For å få siden til å strectche ut hele pagen*/
+*{
+margin: 0;
+padding 0;
+border 0;
 }
 
 
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-   
+body{
+    border: 12px solid #E75B00;
 }
 
 .parallax{
-    background-image: url('food.jpg');
-    height: 40%;
+    /*linear gradient for å gjøre bilde mørkere*/
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url('bakgrunn1.jpeg');
+    height: 80%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+parallax-inner{
+    padding top 30%;
+    padding-bottom: 30%; 
+}
 
 h1{
+    padding: 18% 0;
     text-align: center;
     font-size: 500%;
     color: E75B00;
     letter-spacing: 3px;
 }
+
 
 .bod{
     display: flex;
@@ -48,7 +53,6 @@ h1{
 }
 
 .storbeskrivelse{
-    border: 3px solid green; /*fjern dette*/
     padding: 70px 0;
     text-align: center;
     font-family: Georgia, serif;
@@ -56,8 +60,6 @@ h1{
     
 }
 .litenbeskrivelse{
-    border: 3px solid green; /*fjern dette*/
     padding: 70px 0;
     text-align: center;
 }
-
