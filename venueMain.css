@@ -24,6 +24,38 @@ parallax-inner{
     padding-bottom: 30%; 
 }
 
+
+
+nav{
+    font-size: 250%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+span{
+    color:#ea1539
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #ea1539;
+    transition: .3s;
+}
+
 h1{
     padding: 18% 0;
     text-align: center;
@@ -63,3 +95,7 @@ h1{
     padding: 70px 0;
     text-align: center;
 }
+
+
+
+
