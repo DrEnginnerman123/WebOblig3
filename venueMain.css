@@ -7,12 +7,12 @@ border 0;
 
 
 body{
-    border: 12px solid #E75B00;
+    border: 12px solid aqua;
 }
 
 .parallax{
     /*linear gradient for å gjøre bilde mørkere*/
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url('bakgrunn1.jpeg');
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)),  url('test1.jpg');
     height: 80%;
     background-attachment: fixed;
     background-position: center;
@@ -57,11 +57,18 @@ nav ul li a:hover{
 }
 
 h1{
-    padding: 18% 0;
+    padding: 13% 0;
     text-align: center;
     font-size: 500%;
     color: E75B00;
     letter-spacing: 3px;
+}
+
+h2{
+    color: aqua;
+}
+h3{
+    font-size: 160%;
 }
 
 
