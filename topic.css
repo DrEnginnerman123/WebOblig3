@@ -32,7 +32,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding-top: 40px;
-    padding-left: 10%;
+    padding-left: 23.6%;
     padding-right: 10%;
 }
 
@@ -70,10 +70,6 @@ h2{
 h3{
     font-size: 160%;
 }
-    p.cursive{
-        font-style: oblique;
-}
-
 p2{
     color: aqua;
 }
@@ -92,20 +88,10 @@ p2{
     align-items: center;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-.image {
-    width: 500px;
-    height: 120px;
-    height: auto;
-    float: left;
-    margin: 3px;
-    padding: 3px;
-   border: 3px solid aqua;
-    
+.image{
+    min-height: 100px;
+    min-width: 500px;
+    border: 3px solid #E75B00;
 }
 
 .storbeskrivelse{
@@ -119,8 +105,3 @@ img {
     padding: 70px 0;
     text-align: center;
 }
-
-
-
-
-
